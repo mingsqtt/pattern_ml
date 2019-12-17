@@ -1,0 +1,17 @@
+
+Windows, linux:
+conda create -n ml1P13 python=3.6 numpy=1.15.1 opencv=3.4.2 matplotlib=2.2.3 tensorflow=1.13.1 tensorflow-gpu=1.13.1 cudatoolkit=9.0 cudnn=7.1.4 scipy=1.1.0 scikit-learn=0.19.1 pillow=5.1.0 spyder=3.3.2 cython=0.29.2 pathlib=1.0.1 ipython=7.2.0 yaml pandas keras keras-gpu pydot graphviz
+
+(Assume Cuda 9.0 is installed, and cudnn 7.1.4 installed, get cudnn from https://developer.nvidia.com/rdp/cudnn-archive)
+
+
+
+Mac:
+
+conda create -n ml1P13n python=3.6 numpy=1.15.1 opencv=3.4.2 matplotlib=2.2.3 scipy=1.1.0 pillow=5.1.0 tensorflow=1.13.1 scikit-learn=0.19.1 ipykernel=4.10.0 cython=0.29.2 pathlib=1.0.1 ipython=7.2.0 spyder yaml keras pandas pydot graphviz
+
+
+
+
+Windows, linux without GPU:
+conda create -n ml1P13 python=3.6 numpy=1.15.1 opencv=3.4.2 matplotlib=2.2.3 tensorflow=1.13.1 scipy=1.1.0 scikit-learn=0.19.1 pillow=5.1.0 spyder=3.3.2 cython=0.29.2 pathlib=1.0.1 ipython=7.2.0 yaml pandas keras pydot graphviz
